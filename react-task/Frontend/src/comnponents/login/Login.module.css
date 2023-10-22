@@ -1,0 +1,30 @@
+.login_main_div {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  background-color: #ffffff;
+
+  border: 0.5px solid #fff;
+ max-width: 450px;
+ width: 100%;
+ padding: 25px;
+ border-radius: 10px;
+  color: white;
+}
+.form-group{
+  width: 100%;
+}
+button{
+  padding: 8px 30px 8px 30px !important;
+  border-radius: 14px 0px 14px 14px !important;
+  background: rgb(2,0,36) !important;
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%) !important;
+}
+input{
+  border-bottom: 2px solid #090979 !important;
+}
