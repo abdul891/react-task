@@ -72,7 +72,7 @@ const thead_bgcolor = "#000000";
                     <td
                       style={{
                         backgroundColor: `${helper.rowColor(
-                          item?.testTypeDetails?.test_type
+                          item?.test_type?.test_type
                         )}`,
                       }}
                     >
@@ -81,7 +81,7 @@ const thead_bgcolor = "#000000";
                     <td
                       style={{
                         backgroundColor: `${helper.rowColor(
-                          item?.testTypeDetails?.test_type
+                          item?.test_type?.test_type
                         )}`,
                       }}
                     >
@@ -90,7 +90,7 @@ const thead_bgcolor = "#000000";
                     <td
                       style={{
                         backgroundColor: `${helper.rowColor(
-                          item?.testTypeDetails?.test_type
+                          item?.test_type?.test_type
                         )}`,
                       }}
                     >
@@ -99,7 +99,7 @@ const thead_bgcolor = "#000000";
                     <td
                       style={{
                         backgroundColor: `${helper.rowColor(
-                          item?.testTypeDetails?.test_type
+                          item?.test_type?.test_type
                         )}`,
                       }}
                     >
@@ -108,16 +108,16 @@ const thead_bgcolor = "#000000";
                     <td
                       style={{
                         backgroundColor: `${helper.rowColor(
-                          item?.testTypeDetails?.test_type
+                          item?.test_type?.test_type
                         )}`,
                       }}
                     >
-                      {item?.testTypeDetails?.test_type}
+                      {item?.test_type?.test_type}
                     </td>
                     <td
                       style={{
                         backgroundColor: `${helper.rowColor(
-                          item?.testTypeDetails?.test_type
+                          item?.test_type?.test_type
                         )}`,
                       }}
                     >
@@ -126,7 +126,7 @@ const thead_bgcolor = "#000000";
                     <td
                       style={{
                         backgroundColor: `${helper.rowColor(
-                          item?.testTypeDetails?.test_type
+                          item?.test_type?.test_type
                         )}`,
                       }}
                     >
@@ -138,7 +138,7 @@ const thead_bgcolor = "#000000";
                     <td
                       style={{
                         backgroundColor: `${helper.rowColor(
-                          item?.testTypeDetails?.test_type
+                          item?.test_type?.test_type
                         )}`,
                       }}
                     >
