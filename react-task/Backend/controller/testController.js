@@ -57,21 +57,7 @@ exports.createTest = async (req, res) => {
 exports.getAllTest = async (req, res) => {
   
   try {
-    const pipeline = [
-      {
-        $lookup: {
-          from: 'test_types', 
-          localField: 'test_type', 
-          foreignField: '_id', 
-          as: 'testTypeDetails', 
-        },
-      },
-      {
-        $unwind: '$testTypeDetails',
-      },
-  
-    ];
-    const testData = await users.aggregate(pipeline);
+     const testData = await users.find().populate('test_type');
   
     if (testData.length > 0) {
       return response.returnTrue(req, res,200, 'Fetch all test', testData);
